@@ -1,0 +1,21 @@
+
+body {
+background-color:#e0ebe8;
+}
+
+hr {
+border-style: dotted none none;
+border-width: 5px;
+border-color: #64b2cd;
+width: 7%;
+
+}
+
+h1 {
+  color: #3C70A4;
+  font-family: Snell Roundhand, cursive;
+}
+
+h3 {
+  color:#66bfbf;
+}
