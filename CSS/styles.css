@@ -4,18 +4,54 @@ background-color:#e0ebe8;
 }
 
 hr {
-border-style: dotted none none;
-border-width: 5px;
-border-color: #64b2cd;
-width: 7%;
-
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #64b2cd;
+  width: 7%;
 }
 
 h1 {
   color: #3C70A4;
   font-family: Snell Roundhand, cursive;
+  font-size: 50px;
+  padding-bottom: 60px;
 }
 
-h3 {
-  color:#66bfbf;
+p
+ {
+  color: black;
+  font-family: Snell Roundhand, cursive;
+
 }
+
+.content {
+  background-image: url(../images/Logo.jpg);
+  border-width: medium;
+  background-repeat: no-repeat;
+  border-style: hidden;
+  position: absolute;
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  vertical-align: middle;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+/*
+.p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+
+}
+*/
