@@ -1,28 +1,66 @@
 
 body {
 background-color:#e0ebe8;
+text-align: center;
+
 }
 
 hr {
   border-style: dotted none none;
   border-width: 5px;
-  border-color: #64b2cd;
+  border-color: #1B5FD5;
   width: 7%;
 }
 
 h1 {
-  color: #3C70A4;
-  font-family: Snell Roundhand, cursive;
+  padding-top: 200px;
+  color: #083583;
   font-size: 50px;
   padding-bottom: 60px;
+  font-family: comfortaa, sans-serif;
+  font-weight: bold;
 }
 
+h2 {
+  color: #083583;
+  font-size: 40px;
+  font-family: comfortaa, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #083583;
+  font-size: 40px;
+  font-family: comfortaa, sans-serif;
+  font-weight: bold;
+}
+
+h6 {
+  color: #083583;
+  font-size: 20px;
+  font-family: comfortaa, sans-serif;
+  font-weight: bold;
+}
 p
  {
   color: black;
-  font-family: Snell Roundhand, cursive;
+  font-family: comfortaa, sans-serif;
+  font-weight: bold;
+}
+
+br {
+        line-height: 300px;
+     }
+a
+{
+  color: #093072;
+  font-family: verdana, sans-serif;
+  font-size: 20px;
 
 }
+
+
+
 
 .content {
   background-image: url(../images/Logo.jpg);
@@ -33,25 +71,24 @@ p
   height: 100%;
   margin-left: 25%;
   margin-right: 25%;
-  text-align: center;
   vertical-align: middle;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-align: center;
-  -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  opacity: 0.5;
-}
+  opacity: 0.7;
 
-/*
-.p {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
 
 }
-*/
+
+.years{
+font-family: cursive;
+font-size: 20px;
+font-weight: bold;
+}
+
+img {
+border-radius:  50%;
+width: 300px;
+	height: 300px;
+}
