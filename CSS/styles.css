@@ -1,8 +1,6 @@
-
 body {
-background-color:#e0ebe8;
-text-align: center;
-
+  background-color: #e0ebe8;
+  text-align: center;
 }
 
 hr {
@@ -10,6 +8,7 @@ hr {
   border-width: 5px;
   border-color: #1B5FD5;
   width: 7%;
+  margin: 50px auto;
 }
 
 h1 {
@@ -41,26 +40,22 @@ h6 {
   font-family: comfortaa, sans-serif;
   font-weight: bold;
 }
-p
- {
+
+p {
   color: black;
   font-family: comfortaa, sans-serif;
   font-weight: bold;
 }
 
 br {
-        line-height: 300px;
-     }
-a
-{
+  line-height: 300px;
+}
+
+a {
   color: #093072;
   font-family: verdana, sans-serif;
   font-size: 20px;
-
 }
-
-
-
 
 .content {
   background-image: url(../images/Logo.jpg);
@@ -77,18 +72,79 @@ a
   justify-content: center;
   background-size: cover;
   opacity: 0.7;
-
-
 }
 
-.years{
-font-family: cursive;
-font-size: 20px;
-font-weight: bold;
+.years {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 img {
-border-radius:  50%;
-width: 300px;
-	height: 300px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.middle {
+}
+
+.efrain2 {
+  float: left;
+
+}
+
+
+.prevencion{
+  float: right;
+}
+
+.venta{
+  float: left;
+}
+.bottom {
+  font-size: 12px;
+  line-height: .8;
+  }
+
+#horarios {
+  margin: 8px;
+}
+
+.espacio{
+  height: 50px;
+  visibility: hidden;
+}
+
+.boton{
+  box-shadow:inset 0px 1px 0px 0px #97c4fe;
+  	background:linear-gradient(to bottom, #3d94f6 5%, #0b2e66 100%);
+  	background-color:#3d94f6;
+  	border-radius:6px;
+  	border:1px solid #337fed;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:verdana;
+  	font-size:15px;
+  	font-weight:bold;
+  	padding:10px 24px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #1570cd;
+  }
+  .boton:hover {
+  	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+  	background-color:#1e62d0;
+  }
+  .boton:active {
+  	position:relative;
+  	top:1px;
+  }
+.pie{
+  background-color: #66bfbf;
+}
+
+
+.Catálogo{
+
 }
