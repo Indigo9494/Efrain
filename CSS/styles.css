@@ -1,6 +1,8 @@
 body {
   background-color: #e0ebe8;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 hr {
@@ -34,7 +36,7 @@ h3 {
   font-weight: bold;
 }
 
-h6 {
+h5 {
   color: #083583;
   font-size: 20px;
   font-family: comfortaa, sans-serif;
@@ -45,6 +47,7 @@ p {
   color: black;
   font-family: comfortaa, sans-serif;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 br {
@@ -62,16 +65,19 @@ a {
   border-width: medium;
   background-repeat: no-repeat;
   border-style: hidden;
-  position: absolute;
-  height: 100%;
+  position: static;
+  height: 750px;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 0;
+  padding: 50px 0 20px;
   vertical-align: middle;
   -webkit-align-items: center;
   align-items: center;
   justify-content: center;
-  background-size: cover;
+  background-size: contain;
   opacity: 0.7;
+
 }
 
 .years {
@@ -103,13 +109,9 @@ img {
   float: left;
 }
 .bottom {
-  font-size: 12px;
-  line-height: .8;
+font-size: 13px;
   }
 
-#horarios {
-  margin: 8px;
-}
 
 .espacio{
   height: 50px;
@@ -142,9 +144,35 @@ img {
   }
 .pie{
   background-color: #66bfbf;
+  padding: 10px 0 0;
+  font-size: 10px;
 }
 
+.horarios{
+  line-height: 1.2;
+}
 
+.footer-link{
+margin: 10px 20px;
+color: #11999E;
+text-decoration: none;
+font-family: comfortaa, sans-serif;
+}
+
+a:hover{
+color: #EAF6F6;
+}
+
+.inicio{
+  height: 50px;
+  background-color: #66bfbf;
+
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 10px;
+  padding: 10px 0 5px;
+}
 .Catálogo{
 
 }
